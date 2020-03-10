@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url('https://www.j-26.com/assets/resized/seo-for-webpages.jpg') 0px top no-repeat #951621;
+    background-size: cover;
+}
+.centeralign {
+    display: table;
+    margin-top: 28px;
+}
+.leftform {
+    float: left;
+}
+
+.leftform div {
+    margin: 18px;
+    font-size: 25px;
+}
+
+.rightform {
+    float: left;
+}
+
+.rightform div {
+    margin: 10px;
+}
+
+.textareastyle {
+    margin-bottom: 5px;
+}
+
+.main-div {
+    width: 100%;
+    height: 151px;
+}
+
+.left-div {
+    float: left;
+}
+
+.right-div {
+    float: right;
+    height: 150px;
+    font-size: 25px;
+}
+
+.main-div1 {
+    height: 200px; 
+    margin:15px;
+    font-size: 25px;
+}
+
+.img-wrapper {
+    height: 117px;
+    margin-left: 12px;
+    position: relative;
+    top: 46px;
+}
+.style-list {
+    list-style: none;
+    padding: 10px;
+}
+.border-style{
+    border: 2px solid grey;
+    padding: 6px;
+    width: 400px;
+}
+.border-style1{
+    border: 2px solid gray;
+    font-size: 20px;
+    position: relative;
+    left: 416px;
+}
+.main-wrapper{
+    background-color: black;
+}
+.style-list1 {
+    padding: 10px;
+}
+.style-list2{
+    padding: 25px;
+}
+.wrapper1{
+    display: none;
+    position:absolute;
+    left: 0px;
+    top: 0px;
+}
+.wrapper2{
+    display: block;
+}

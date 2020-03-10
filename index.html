@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <script src="style1.js"></script>
+</head>
+
+<body>
+    <div class="wrapper2" id="display2">
+        <div class="centeralign" id="mydiv">
+            <div class="leftform">
+                <div>
+                    Name:
+                </div>
+                <div>
+                    Company:
+                </div>
+                <div class="textareastyle">
+                    Technology:
+                </div>
+                <div>
+                    Phone Number:
+                </div>
+                <div>
+                    Location:
+                </div>
+                <div>
+                    Photo:
+                </div>
+            </div>
+            <div class="rightform">
+                <div>
+                    <input type="text" name="name" id="name" class="border-style">
+                </div>
+                <div>
+                    <input type="text" name="company" id="company" class="border-style">
+                </div>
+                <div>
+                    <textarea name="technology" rows="1" cols="30" id="technology" class="border-style"></textarea>
+                </div>
+                <div>
+                    <input type="number" name="phone" id="phone" class="border-style">
+                </div>
+                <div>
+                    <input type="text" name="location" id="location" class="border-style">
+                </div>
+                <div>
+                    <input type="file" name="photo" id="photo" class="border-style" accept="index.jpeg">
+                </div>
+                <div>
+                    <button onclick="myFunction()" class="border-style1">submit</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="wrapper1" id="display1">
+        <div class="main-div">
+            <div class="left-div">
+               <img src="flag.jpg" class="img-wrapper"> 
+            </div>
+            <div class="right-div" id="concatenate">
+                <ul class="style-list">
+                    <li class="style-list1">Name: <span id="text"></span></li>
+                    <li class="style-list1">Location: <span id="text1"></span></li>
+                    <li class="style-list1">Phone: <span id="text2"></span> </li>
+                </ul>
+            </div>
+        </div>
+        <div class="main-div1">
+            <ul class="style-list">
+                <li class="style-list2">Company: <span id="com1"></span></li>
+                <li class="style-list2">technology: <span id="com2"></span></li>
+            </ul>
+        </div>
+    </div>
+</body>
+</head>
+
+</html>
